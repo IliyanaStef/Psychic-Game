@@ -1,4 +1,4 @@
-// Defines initial variables responding to game fields//
+// Defines initial variables responding to game fields and their values//
 var wins = 0;
 var losses = 0;       
 var guessesLeft = 11;
@@ -34,7 +34,7 @@ if (alphabet.indexOf(userGuess) > -1) {
     }
 }
 
-//Updates the values of each variable// 
+//Updates the values of each game field accoridng to game results and guesses// 
 document.getElementById("wins").innerHTML = ("Wins: " + wins);
 document.getElementById("losses").innerHTML = ("Losses: " + losses);
 document.getElementById("guessesLeft").innerHTML = ("Guesses left: "  + guessesLeft);
